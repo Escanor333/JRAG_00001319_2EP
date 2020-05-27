@@ -1,0 +1,8 @@
+C:\Users\raula\OneDrive\Escritorio\JRAG_00001319_2EP\SourceCode\Parcial 2\Parcial 2\bin\Debug\Parcial_2.exe.config
+C:\Users\raula\OneDrive\Escritorio\JRAG_00001319_2EP\SourceCode\Parcial 2\Parcial 2\bin\Debug\Parcial_2.exe
+C:\Users\raula\OneDrive\Escritorio\JRAG_00001319_2EP\SourceCode\Parcial 2\Parcial 2\bin\Debug\Parcial_2.pdb
+C:\Users\raula\OneDrive\Escritorio\JRAG_00001319_2EP\SourceCode\Parcial 2\Parcial 2\obj\Debug\Parcial 2.csprojAssemblyReference.cache
+C:\Users\raula\OneDrive\Escritorio\JRAG_00001319_2EP\SourceCode\Parcial 2\Parcial 2\obj\Debug\Parcial_2.Properties.Resources.resources
+C:\Users\raula\OneDrive\Escritorio\JRAG_00001319_2EP\SourceCode\Parcial 2\Parcial 2\obj\Debug\Parcial 2.csproj.GenerateResource.cache
+C:\Users\raula\OneDrive\Escritorio\JRAG_00001319_2EP\SourceCode\Parcial 2\Parcial 2\obj\Debug\Parcial_2.exe
+C:\Users\raula\OneDrive\Escritorio\JRAG_00001319_2EP\SourceCode\Parcial 2\Parcial 2\obj\Debug\Parcial_2.pdb
