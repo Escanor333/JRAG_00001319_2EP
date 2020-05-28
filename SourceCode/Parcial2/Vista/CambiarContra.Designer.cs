@@ -115,7 +115,7 @@ namespace Parcial2.Properties
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(239, 64);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(237, 23);
+            this.label1.Size = new System.Drawing.Size(237, 22);
             this.label1.TabIndex = 6;
             this.label1.Text = "Seleccione su usuario";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -124,7 +124,8 @@ namespace Parcial2.Properties
             // 
             this.pictureBox1.BackgroundImage =
                 ((System.Drawing.Image) (resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(21, 33);
+            this.pictureBox1.Location = new System.Drawing.Point(21, 32);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(192, 215);
             this.pictureBox1.TabIndex = 7;

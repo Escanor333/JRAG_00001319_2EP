@@ -61,93 +61,109 @@ namespace Parcial2
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(629, 402);
+            this.tabControl1.Size = new System.Drawing.Size(719, 536);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
             // 
-            this.tabPage1.BackColor = System.Drawing.Color.Indigo;
+            this.tabPage1.BackColor = System.Drawing.Color.DarkViolet;
             this.tabPage1.Controls.Add(this.numericIdProducto);
             this.tabPage1.Controls.Add(this.numericIdDireccion);
             this.tabPage1.Controls.Add(this.btnAgregarOrden);
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.label1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 24);
+            this.tabPage1.Location = new System.Drawing.Point(4, 29);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(621, 374);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tabPage1.Size = new System.Drawing.Size(711, 503);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Crear orden";
             // 
             // numericIdProducto
             // 
-            this.numericIdProducto.Location = new System.Drawing.Point(324, 178);
+            this.numericIdProducto.Location = new System.Drawing.Point(230, 298);
+            this.numericIdProducto.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.numericIdProducto.Maximum = new decimal(new int[] {1000, 0, 0, 0});
             this.numericIdProducto.Name = "numericIdProducto";
-            this.numericIdProducto.Size = new System.Drawing.Size(136, 23);
+            this.numericIdProducto.Size = new System.Drawing.Size(155, 27);
             this.numericIdProducto.TabIndex = 4;
             // 
             // numericIdDireccion
             // 
-            this.numericIdDireccion.Location = new System.Drawing.Point(324, 87);
+            this.numericIdDireccion.Location = new System.Drawing.Point(230, 146);
+            this.numericIdDireccion.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.numericIdDireccion.Maximum = new decimal(new int[] {1000, 0, 0, 0});
             this.numericIdDireccion.Name = "numericIdDireccion";
-            this.numericIdDireccion.Size = new System.Drawing.Size(136, 23);
+            this.numericIdDireccion.Size = new System.Drawing.Size(155, 27);
             this.numericIdDireccion.TabIndex = 3;
             // 
             // btnAgregarOrden
             // 
-            this.btnAgregarOrden.Location = new System.Drawing.Point(247, 257);
+            this.btnAgregarOrden.BackColor = System.Drawing.Color.Black;
+            this.btnAgregarOrden.Font = new System.Drawing.Font("Lucida Bright", 12F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.btnAgregarOrden.ForeColor = System.Drawing.Color.White;
+            this.btnAgregarOrden.Location = new System.Drawing.Point(222, 385);
+            this.btnAgregarOrden.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnAgregarOrden.Name = "btnAgregarOrden";
-            this.btnAgregarOrden.Size = new System.Drawing.Size(121, 52);
+            this.btnAgregarOrden.Size = new System.Drawing.Size(163, 69);
             this.btnAgregarOrden.TabIndex = 2;
             this.btnAgregarOrden.Text = "Agregar orden";
-            this.btnAgregarOrden.UseVisualStyleBackColor = true;
+            this.btnAgregarOrden.UseVisualStyleBackColor = false;
             this.btnAgregarOrden.Click += new System.EventHandler(this.btnAgregarOrden_Click);
             // 
             // label2
             // 
+            this.label2.BackColor = System.Drawing.Color.Black;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(128, 172);
+            this.label2.Location = new System.Drawing.Point(230, 226);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(166, 29);
+            this.label2.Size = new System.Drawing.Size(155, 39);
             this.label2.TabIndex = 1;
             this.label2.Text = "Id Producto";
             // 
             // label1
             // 
+            this.label1.BackColor = System.Drawing.Color.Black;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(128, 80);
+            this.label1.Location = new System.Drawing.Point(230, 50);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(166, 47);
+            this.label1.Size = new System.Drawing.Size(155, 45);
             this.label1.TabIndex = 0;
             this.label1.Text = "Id Direccion";
             // 
             // tabPage2
             // 
-            this.tabPage2.BackColor = System.Drawing.Color.Indigo;
+            this.tabPage2.BackColor = System.Drawing.Color.DarkViolet;
             this.tabPage2.Controls.Add(this.btnEliminarOrden);
             this.tabPage2.Controls.Add(this.numericIdOrdenEliminar);
             this.tabPage2.Controls.Add(this.label3);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Location = new System.Drawing.Point(4, 29);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(621, 376);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tabPage2.Size = new System.Drawing.Size(711, 503);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Eliminar orden";
             // 
             // btnEliminarOrden
             // 
-            this.btnEliminarOrden.BackColor = System.Drawing.Color.White;
-            this.btnEliminarOrden.Location = new System.Drawing.Point(230, 205);
+            this.btnEliminarOrden.BackColor = System.Drawing.Color.Black;
+            this.btnEliminarOrden.Font = new System.Drawing.Font("Lucida Bright", 12F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.btnEliminarOrden.ForeColor = System.Drawing.Color.White;
+            this.btnEliminarOrden.Location = new System.Drawing.Point(249, 282);
+            this.btnEliminarOrden.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnEliminarOrden.Name = "btnEliminarOrden";
-            this.btnEliminarOrden.Size = new System.Drawing.Size(113, 68);
+            this.btnEliminarOrden.Size = new System.Drawing.Size(169, 91);
             this.btnEliminarOrden.TabIndex = 6;
             this.btnEliminarOrden.Text = "Eliminar orden";
             this.btnEliminarOrden.UseVisualStyleBackColor = false;
@@ -155,20 +171,22 @@ namespace Parcial2
             // 
             // numericIdOrdenEliminar
             // 
-            this.numericIdOrdenEliminar.Location = new System.Drawing.Point(317, 85);
+            this.numericIdOrdenEliminar.Location = new System.Drawing.Point(263, 202);
+            this.numericIdOrdenEliminar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.numericIdOrdenEliminar.Maximum = new decimal(new int[] {1000, 0, 0, 0});
             this.numericIdOrdenEliminar.Name = "numericIdOrdenEliminar";
-            this.numericIdOrdenEliminar.Size = new System.Drawing.Size(136, 23);
+            this.numericIdOrdenEliminar.Size = new System.Drawing.Size(155, 27);
             this.numericIdOrdenEliminar.TabIndex = 5;
             // 
             // label3
             // 
+            this.label3.BackColor = System.Drawing.Color.Black;
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(121, 78);
+            this.label3.Location = new System.Drawing.Point(276, 108);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(166, 47);
+            this.label3.Size = new System.Drawing.Size(116, 48);
             this.label3.TabIndex = 4;
             this.label3.Text = "Id orden";
             // 
@@ -176,9 +194,10 @@ namespace Parcial2
             // 
             this.tabPage3.BackColor = System.Drawing.Color.Indigo;
             this.tabPage3.Controls.Add(this.dataGridView1);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Location = new System.Drawing.Point(4, 29);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(621, 376);
+            this.tabPage3.Size = new System.Drawing.Size(711, 503);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Ver ordenes";
             // 
@@ -189,18 +208,20 @@ namespace Parcial2
                 System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(621, 376);
+            this.dataGridView1.Size = new System.Drawing.Size(711, 503);
             this.dataGridView1.TabIndex = 0;
             // 
             // OrdenesUsuario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Indigo;
-            this.ClientSize = new System.Drawing.Size(629, 402);
+            this.BackColor = System.Drawing.Color.DarkViolet;
+            this.ClientSize = new System.Drawing.Size(719, 536);
             this.Controls.Add(this.tabControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "OrdenesUsuario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OrdenesUsuario";

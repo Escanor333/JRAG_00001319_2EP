@@ -53,32 +53,38 @@ namespace Parcial2
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(574, 417);
+            this.tabControl1.Size = new System.Drawing.Size(656, 556);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
             // 
-            this.tabPage1.BackColor = System.Drawing.Color.Indigo;
+            this.tabPage1.BackColor = System.Drawing.Color.DarkViolet;
             this.tabPage1.Controls.Add(this.btnAgregarNegocio);
             this.tabPage1.Controls.Add(this.txtDescripcionAgregar);
             this.tabPage1.Controls.Add(this.txtNombreAgregar);
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.label1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 24);
+            this.tabPage1.Location = new System.Drawing.Point(4, 29);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(566, 389);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tabPage1.Size = new System.Drawing.Size(648, 523);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Agregar negocio";
             // 
             // btnAgregarNegocio
             // 
-            this.btnAgregarNegocio.BackColor = System.Drawing.Color.White;
-            this.btnAgregarNegocio.Location = new System.Drawing.Point(227, 265);
+            this.btnAgregarNegocio.BackColor = System.Drawing.Color.Black;
+            this.btnAgregarNegocio.Font = new System.Drawing.Font("Lucida Bright", 12F,
+                System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.btnAgregarNegocio.ForeColor = System.Drawing.Color.White;
+            this.btnAgregarNegocio.Location = new System.Drawing.Point(259, 421);
+            this.btnAgregarNegocio.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnAgregarNegocio.Name = "btnAgregarNegocio";
-            this.btnAgregarNegocio.Size = new System.Drawing.Size(139, 54);
+            this.btnAgregarNegocio.Size = new System.Drawing.Size(159, 72);
             this.btnAgregarNegocio.TabIndex = 4;
             this.btnAgregarNegocio.Text = "Agregar negocio";
             this.btnAgregarNegocio.UseVisualStyleBackColor = false;
@@ -86,59 +92,68 @@ namespace Parcial2
             // 
             // txtDescripcionAgregar
             // 
-            this.txtDescripcionAgregar.Location = new System.Drawing.Point(239, 177);
+            this.txtDescripcionAgregar.Location = new System.Drawing.Point(169, 319);
+            this.txtDescripcionAgregar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtDescripcionAgregar.Name = "txtDescripcionAgregar";
-            this.txtDescripcionAgregar.Size = new System.Drawing.Size(290, 23);
+            this.txtDescripcionAgregar.Size = new System.Drawing.Size(331, 27);
             this.txtDescripcionAgregar.TabIndex = 3;
             // 
             // txtNombreAgregar
             // 
-            this.txtNombreAgregar.Location = new System.Drawing.Point(239, 75);
+            this.txtNombreAgregar.Location = new System.Drawing.Point(169, 167);
+            this.txtNombreAgregar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtNombreAgregar.Name = "txtNombreAgregar";
-            this.txtNombreAgregar.Size = new System.Drawing.Size(290, 23);
+            this.txtNombreAgregar.Size = new System.Drawing.Size(331, 27);
             this.txtNombreAgregar.TabIndex = 2;
             // 
             // label2
             // 
+            this.label2.BackColor = System.Drawing.Color.Black;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(71, 177);
+            this.label2.Location = new System.Drawing.Point(259, 238);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(149, 35);
+            this.label2.Size = new System.Drawing.Size(170, 46);
             this.label2.TabIndex = 1;
             this.label2.Text = "Descripcion";
             // 
             // label1
             // 
+            this.label1.BackColor = System.Drawing.Color.Black;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(71, 75);
+            this.label1.Location = new System.Drawing.Point(225, 94);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(149, 23);
+            this.label1.Size = new System.Drawing.Size(241, 31);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Nombre";
+            this.label1.Text = "Nombre del Negocio";
             // 
             // tabPage2
             // 
-            this.tabPage2.BackColor = System.Drawing.Color.Indigo;
+            this.tabPage2.BackColor = System.Drawing.Color.DarkViolet;
             this.tabPage2.Controls.Add(this.btnEliminarNegocio);
             this.tabPage2.Controls.Add(this.comboNombreEliminar);
             this.tabPage2.Controls.Add(this.label3);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Location = new System.Drawing.Point(4, 29);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(566, 391);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tabPage2.Size = new System.Drawing.Size(648, 523);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Eliminar negocio";
             // 
             // btnEliminarNegocio
             // 
-            this.btnEliminarNegocio.BackColor = System.Drawing.Color.White;
-            this.btnEliminarNegocio.Location = new System.Drawing.Point(220, 223);
+            this.btnEliminarNegocio.BackColor = System.Drawing.Color.Black;
+            this.btnEliminarNegocio.Font = new System.Drawing.Font("Lucida Bright", 12F,
+                System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.btnEliminarNegocio.ForeColor = System.Drawing.Color.White;
+            this.btnEliminarNegocio.Location = new System.Drawing.Point(229, 307);
+            this.btnEliminarNegocio.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnEliminarNegocio.Name = "btnEliminarNegocio";
-            this.btnEliminarNegocio.Size = new System.Drawing.Size(127, 53);
+            this.btnEliminarNegocio.Size = new System.Drawing.Size(145, 71);
             this.btnEliminarNegocio.TabIndex = 3;
             this.btnEliminarNegocio.Text = "Eliminar negocio";
             this.btnEliminarNegocio.UseVisualStyleBackColor = false;
@@ -147,30 +162,34 @@ namespace Parcial2
             // comboNombreEliminar
             // 
             this.comboNombreEliminar.FormattingEnabled = true;
-            this.comboNombreEliminar.Location = new System.Drawing.Point(262, 106);
+            this.comboNombreEliminar.Location = new System.Drawing.Point(184, 180);
+            this.comboNombreEliminar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.comboNombreEliminar.Name = "comboNombreEliminar";
-            this.comboNombreEliminar.Size = new System.Drawing.Size(214, 23);
+            this.comboNombreEliminar.Size = new System.Drawing.Size(244, 28);
             this.comboNombreEliminar.TabIndex = 2;
             // 
             // label3
             // 
-            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold,
+            this.label3.BackColor = System.Drawing.Color.Black;
+            this.label3.Font = new System.Drawing.Font("Lucida Bright", 13.8F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(97, 105);
+            this.label3.Location = new System.Drawing.Point(175, 81);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(149, 23);
+            this.label3.Size = new System.Drawing.Size(264, 31);
             this.label3.TabIndex = 1;
-            this.label3.Text = "Nombre";
+            this.label3.Text = "Nombre del negocio";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // Negocios
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Indigo;
-            this.ClientSize = new System.Drawing.Size(574, 417);
+            this.BackColor = System.Drawing.Color.DarkViolet;
+            this.ClientSize = new System.Drawing.Size(656, 556);
             this.Controls.Add(this.tabControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Negocios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Negocios";

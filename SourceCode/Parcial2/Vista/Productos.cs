@@ -75,5 +75,15 @@ namespace Parcial2
                 MessageBox.Show("Error!");
             }
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
