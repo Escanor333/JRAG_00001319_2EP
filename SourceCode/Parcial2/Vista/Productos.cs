@@ -39,6 +39,8 @@ namespace Parcial2
                     MessageBox.Show("Error!");
                 }
             }
+            
+            
         }
 
         private void Productos_Load(object sender, EventArgs e)

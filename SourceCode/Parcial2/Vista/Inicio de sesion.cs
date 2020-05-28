@@ -21,12 +21,10 @@ namespace Parcial2
         
         private void poblarControles()
         {
-            // Actualizar ComboBox
             cmbUsuario.DataSource = null;
             cmbUsuario.ValueMember = "password";
             cmbUsuario.DisplayMember = "username";
             cmbUsuario.DataSource = UsuarioDAO.getLista();
-            
         }
         
         
@@ -39,13 +37,12 @@ namespace Parcial2
 
         private void txtPassword_KeyDown(object sender, KeyEventArgs e)
         {
-           // if (e.KeyCode == Keys.Enter) button1_Click(sender, e);
-            
-        }
 
-       // private void button1_Click(object sender, EventArgs e)
-        //{
-        //}
+        }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            poblarControles();
+        }
 
         private void btnIniciarSesion_Click(object sender, EventArgs e)
         {
@@ -53,8 +50,7 @@ namespace Parcial2
             {
                 u = (Usuario) cmbUsuario.SelectedItem;
 
-                MessageBox.Show("¡Bienvenido!",
-                    "HUGO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("¡Bienvenido al sistema HUGO!");
 
                 if (u.usertype)
                 {

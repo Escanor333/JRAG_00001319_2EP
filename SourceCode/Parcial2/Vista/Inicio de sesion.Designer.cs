@@ -38,13 +38,15 @@
             this.btnIniciarSesion = new System.Windows.Forms.Button();
             this.btnCambiarContrasenia = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // cmbUsuario
             // 
             this.cmbUsuario.FormattingEnabled = true;
-            this.cmbUsuario.Location = new System.Drawing.Point(375, 260);
+            this.cmbUsuario.Location = new System.Drawing.Point(359, 384);
             this.cmbUsuario.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cmbUsuario.Name = "cmbUsuario";
             this.cmbUsuario.Size = new System.Drawing.Size(229, 28);
@@ -52,51 +54,54 @@
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(375, 349);
+            this.txtPassword.Location = new System.Drawing.Point(359, 454);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(229, 27);
             this.txtPassword.TabIndex = 1;
             this.txtPassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPassword_KeyDown);
             // 
             // label1
             // 
+            this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Segoe MDL2 Assets", 14.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(65, 245);
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(42, 384);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(230, 44);
+            this.label1.Size = new System.Drawing.Size(230, 28);
             this.label1.TabIndex = 2;
             this.label1.Text = "Usuario";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
+            this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Font = new System.Drawing.Font("Segoe MDL2 Assets", 14.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(70, 335);
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(42, 454);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(225, 42);
+            this.label2.Size = new System.Drawing.Size(225, 27);
             this.label2.TabIndex = 3;
             this.label2.Text = "Contraseña";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnIniciarSesion
             // 
-            this.btnIniciarSesion.BackColor = System.Drawing.Color.White;
+            this.btnIniciarSesion.BackColor = System.Drawing.Color.Black;
             this.btnIniciarSesion.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnIniciarSesion.FlatAppearance.BorderSize = 0;
             this.btnIniciarSesion.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
             this.btnIniciarSesion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.btnIniciarSesion.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.btnIniciarSesion.ForeColor = System.Drawing.Color.Indigo;
-            this.btnIniciarSesion.Location = new System.Drawing.Point(70, 464);
+            this.btnIniciarSesion.Font = new System.Drawing.Font("Lucida Bright", 13.8F,
+                System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.btnIniciarSesion.ForeColor = System.Drawing.Color.White;
+            this.btnIniciarSesion.Location = new System.Drawing.Point(42, 527);
             this.btnIniciarSesion.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnIniciarSesion.Name = "btnIniciarSesion";
-            this.btnIniciarSesion.Size = new System.Drawing.Size(102, 64);
+            this.btnIniciarSesion.Size = new System.Drawing.Size(225, 64);
             this.btnIniciarSesion.TabIndex = 4;
             this.btnIniciarSesion.Text = "Iniciar sesion";
             this.btnIniciarSesion.UseVisualStyleBackColor = false;
@@ -104,12 +109,14 @@
             // 
             // btnCambiarContrasenia
             // 
-            this.btnCambiarContrasenia.BackColor = System.Drawing.Color.White;
-            this.btnCambiarContrasenia.ForeColor = System.Drawing.Color.Indigo;
-            this.btnCambiarContrasenia.Location = new System.Drawing.Point(516, 464);
+            this.btnCambiarContrasenia.BackColor = System.Drawing.Color.Black;
+            this.btnCambiarContrasenia.Font = new System.Drawing.Font("Lucida Bright", 13.8F,
+                System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.btnCambiarContrasenia.ForeColor = System.Drawing.Color.White;
+            this.btnCambiarContrasenia.Location = new System.Drawing.Point(359, 527);
             this.btnCambiarContrasenia.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnCambiarContrasenia.Name = "btnCambiarContrasenia";
-            this.btnCambiarContrasenia.Size = new System.Drawing.Size(102, 64);
+            this.btnCambiarContrasenia.Size = new System.Drawing.Size(229, 64);
             this.btnCambiarContrasenia.TabIndex = 5;
             this.btnCambiarContrasenia.Text = "Cambiar contraseña";
             this.btnCambiarContrasenia.UseVisualStyleBackColor = false;
@@ -117,19 +124,34 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image) (resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(187, 12);
+            this.pictureBox1.BackgroundImage = global::Parcial2.Properties.Resources.Hugo;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(26, 13);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(377, 224);
+            this.pictureBox1.Size = new System.Drawing.Size(266, 326);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage =
+                ((System.Drawing.Image) (resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(322, 13);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(266, 326);
+            this.pictureBox2.TabIndex = 7;
+            this.pictureBox2.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Indigo;
-            this.ClientSize = new System.Drawing.Size(732, 614);
+            this.BackColor = System.Drawing.Color.DarkViolet;
+            this.ClientSize = new System.Drawing.Size(625, 614);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnCambiarContrasenia);
             this.Controls.Add(this.btnIniciarSesion);
@@ -138,11 +160,14 @@
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.cmbUsuario);
             this.ForeColor = System.Drawing.Color.Purple;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-           // this.Load += new System.EventHandler(this.Form1_Load);
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
         }
@@ -156,5 +181,6 @@
         private System.Windows.Forms.ComboBox cmbUsuario;
         private System.Windows.Forms.Button btnIniciarSesion;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
