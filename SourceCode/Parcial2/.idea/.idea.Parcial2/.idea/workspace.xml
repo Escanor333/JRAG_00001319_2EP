@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3cae5879-7d5b-4fca-8e94-ffa9d985a6cf" name="Default Changelist" comment="" />
+    <list default="true" id="3cae5879-7d5b-4fca-8e94-ffa9d985a6cf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Parcial2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Parcial2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vista/CambiarContra.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/CambiarContra.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vista/CambiarContra.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/CambiarContra.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vista/CambiarContra.resx" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/CambiarContra.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/Parcial2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Parcial2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/Parcial2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Parcial2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Parcial2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Parcial2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Parcial2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Parcial2.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +34,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Vista/Inicio de sesion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/CambiarContra.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/CambiarContra.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Modelo/Direcciones.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Modelo/Negocio.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Modelo/Conexion.cs" root0="FORCE_HIGHLIGHTING" />
@@ -32,27 +44,23 @@
     <setting file="file://$PROJECT_DIR$/Modelo/NegocioDAO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Modelo/Usuario.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Modelo/Producto.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Vista/AdmiOpciones.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Vista/OrdenesUsuario.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Vista/AdmiOpciones.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Vista/fmrPrincipal.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Vista/CambiarContra.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Vista/Negocios.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Vista/CambiarContra.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Vista/Inicio de sesion.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Vista/MenuUsuario.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Vista/Productos.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Vista/OrdenesPedidas.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Vista/Productos.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Vista/fmrPrincipal.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Vista/MenuUsuario.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Vista/OrdenesPedidas.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Vista/OrdenesUsuario.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Vista/Inicio de sesion.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Vista/fmrPrincipalUsuario.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Vista/Negocios.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/Productos.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/MenuUsuario.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/fmrPrincipal.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Vista/fmrPrincipalUsuario.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/OrdenesUsuario.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/OrdenesPedidas.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/MenuUsuario.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/AdmiOpciones.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/fmrPrincipalUsuario.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/Productos.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/fmrPrincipal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/Negocios.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/AdmiOpciones.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/OrdenesUsuario.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vista/Negocios.Designer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -90,6 +98,8 @@
         <option value="$PROJECT_DIR$/Modelo/Conexion.cs" />
         <option value="$PROJECT_DIR$/Vista/Inicio de sesion.cs" />
         <option value="$PROJECT_DIR$/Vista/AdmiOpciones.cs" />
+        <option value="$PROJECT_DIR$/Vista/CambiarContra.Designer.cs" />
+        <option value="$PROJECT_DIR$/Vista/CambiarContra.cs" />
       </list>
     </option>
   </component>
@@ -142,6 +152,7 @@
       <workItem from="1590617163534" duration="8843000" />
       <workItem from="1590631032117" duration="39000" />
       <workItem from="1590631576842" duration="1655000" />
+      <workItem from="1590633343291" duration="737000" />
     </task>
     <servers />
   </component>
@@ -151,25 +162,25 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="WindowStateProjectService">
-    <state width="1493" height="195" key="GridCell.Tab.0.bottom" timestamp="1590633258442">
+    <state width="1493" height="195" key="GridCell.Tab.0.bottom" timestamp="1590634090223">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590633258442" />
+    <state width="1493" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590634090223" />
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590626010754" />
-    <state width="1493" height="195" key="GridCell.Tab.0.center" timestamp="1590633258441">
+    <state width="1493" height="195" key="GridCell.Tab.0.center" timestamp="1590634090222">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590633258441" />
+    <state width="1493" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590634090222" />
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590626010754" />
-    <state width="1493" height="195" key="GridCell.Tab.0.left" timestamp="1590633258441">
+    <state width="1493" height="195" key="GridCell.Tab.0.left" timestamp="1590634090222">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590633258441" />
+    <state width="1493" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590634090222" />
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590626010754" />
-    <state width="1493" height="195" key="GridCell.Tab.0.right" timestamp="1590633258442">
+    <state width="1493" height="195" key="GridCell.Tab.0.right" timestamp="1590634090222">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590633258442" />
+    <state width="1493" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590634090222" />
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590626010754" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1590626010754">
       <screen x="0" y="0" width="1920" height="1040" />

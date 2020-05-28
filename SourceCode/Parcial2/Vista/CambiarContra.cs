@@ -45,5 +45,15 @@ namespace Parcial2.Properties
             cmbUsuario.DisplayMember = "username";
             cmbUsuario.DataSource = UsuarioDAO.getLista();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        private void RepetirNuevaContraseña_Click(object sender, EventArgs e)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
