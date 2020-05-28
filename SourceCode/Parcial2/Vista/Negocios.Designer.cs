@@ -100,7 +100,7 @@ namespace Parcial2
             // 
             // txtNombreAgregar
             // 
-            this.txtNombreAgregar.Location = new System.Drawing.Point(169, 167);
+            this.txtNombreAgregar.Location = new System.Drawing.Point(169, 168);
             this.txtNombreAgregar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtNombreAgregar.Name = "txtNombreAgregar";
             this.txtNombreAgregar.Size = new System.Drawing.Size(331, 27);
@@ -124,9 +124,9 @@ namespace Parcial2
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(225, 94);
+            this.label1.Location = new System.Drawing.Point(203, 95);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(241, 31);
+            this.label1.Size = new System.Drawing.Size(261, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nombre del Negocio";
             // 
@@ -150,7 +150,7 @@ namespace Parcial2
             this.btnEliminarNegocio.Font = new System.Drawing.Font("Lucida Bright", 12F,
                 System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.btnEliminarNegocio.ForeColor = System.Drawing.Color.White;
-            this.btnEliminarNegocio.Location = new System.Drawing.Point(229, 307);
+            this.btnEliminarNegocio.Location = new System.Drawing.Point(229, 308);
             this.btnEliminarNegocio.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnEliminarNegocio.Name = "btnEliminarNegocio";
             this.btnEliminarNegocio.Size = new System.Drawing.Size(145, 71);
@@ -176,7 +176,7 @@ namespace Parcial2
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(175, 81);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(264, 31);
+            this.label3.Size = new System.Drawing.Size(279, 31);
             this.label3.TabIndex = 1;
             this.label3.Text = "Nombre del negocio";
             this.label3.Click += new System.EventHandler(this.label3_Click);

@@ -81,7 +81,7 @@ namespace Parcial2
             this.btnAgregarProducto.Font = new System.Drawing.Font("Lucida Bright", 12F,
                 System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.btnAgregarProducto.ForeColor = System.Drawing.Color.White;
-            this.btnAgregarProducto.Location = new System.Drawing.Point(192, 443);
+            this.btnAgregarProducto.Location = new System.Drawing.Point(192, 442);
             this.btnAgregarProducto.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnAgregarProducto.Name = "btnAgregarProducto";
             this.btnAgregarProducto.Size = new System.Drawing.Size(199, 60);
@@ -101,7 +101,7 @@ namespace Parcial2
             // comboNegocios
             // 
             this.comboNegocios.FormattingEnabled = true;
-            this.comboNegocios.Location = new System.Drawing.Point(169, 197);
+            this.comboNegocios.Location = new System.Drawing.Point(169, 198);
             this.comboNegocios.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.comboNegocios.Name = "comboNegocios";
             this.comboNegocios.Size = new System.Drawing.Size(222, 28);
@@ -113,7 +113,7 @@ namespace Parcial2
             this.label2.Font = new System.Drawing.Font("Lucida Bright", 13.8F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(210, 273);
+            this.label2.Location = new System.Drawing.Point(210, 272);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(138, 46);
             this.label2.TabIndex = 1;
@@ -128,7 +128,7 @@ namespace Parcial2
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(210, 102);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(122, 51);
+            this.label1.Size = new System.Drawing.Size(146, 51);
             this.label1.TabIndex = 0;
             this.label1.Text = "Negocio";
             // 
@@ -178,7 +178,7 @@ namespace Parcial2
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(248, 98);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(108, 46);
+            this.label3.Size = new System.Drawing.Size(122, 46);
             this.label3.TabIndex = 4;
             this.label3.Text = "Nombre";
             this.label3.Click += new System.EventHandler(this.label3_Click);

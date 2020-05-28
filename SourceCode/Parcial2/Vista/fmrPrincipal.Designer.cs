@@ -35,6 +35,7 @@ namespace Parcial2
                 new System.ComponentModel.ComponentResourceManager(typeof(fmrPrincipal));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.AgregarUsuario = new System.Windows.Forms.Button();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtNombreCompleto = new System.Windows.Forms.TextBox();
@@ -42,20 +43,19 @@ namespace Parcial2
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.EliminarUsuario = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.cmbUsuarioEliminar = new System.Windows.Forms.ComboBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox2)).BeginInit();
             this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).BeginInit();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize) (this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize) (this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -89,6 +89,17 @@ namespace Parcial2
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Agregar usuario";
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage =
+                ((System.Drawing.Image) (resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.Location = new System.Drawing.Point(101, 6);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(449, 135);
+            this.pictureBox2.TabIndex = 6;
+            this.pictureBox2.TabStop = false;
             // 
             // AgregarUsuario
             // 
@@ -177,6 +188,17 @@ namespace Parcial2
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Eliminar usuario";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage =
+                ((System.Drawing.Image) (resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(164, 44);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(421, 138);
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
             // EliminarUsuario
             // 
             this.EliminarUsuario.BackColor = System.Drawing.Color.Black;
@@ -186,7 +208,7 @@ namespace Parcial2
             this.EliminarUsuario.Location = new System.Drawing.Point(232, 388);
             this.EliminarUsuario.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.EliminarUsuario.Name = "EliminarUsuario";
-            this.EliminarUsuario.Size = new System.Drawing.Size(258, 87);
+            this.EliminarUsuario.Size = new System.Drawing.Size(258, 88);
             this.EliminarUsuario.TabIndex = 2;
             this.EliminarUsuario.Text = "Eliminar usuario";
             this.EliminarUsuario.UseVisualStyleBackColor = false;
@@ -198,9 +220,9 @@ namespace Parcial2
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(78, 221);
+            this.label3.Location = new System.Drawing.Point(63, 221);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(226, 32);
+            this.label3.Size = new System.Drawing.Size(296, 32);
             this.label3.TabIndex = 1;
             this.label3.Text = "Seleccione Usuario";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -218,10 +240,10 @@ namespace Parcial2
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.dataGridView1);
-            this.tabPage3.Location = new System.Drawing.Point(4, 29);
+            this.tabPage3.Location = new System.Drawing.Point(4, 25);
             this.tabPage3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(762, 588);
+            this.tabPage3.Size = new System.Drawing.Size(762, 592);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Ver usuarios";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -235,26 +257,6 @@ namespace Parcial2
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(754, 569);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage =
-                ((System.Drawing.Image) (resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(186, 44);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(359, 138);
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage =
-                ((System.Drawing.Image) (resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.Location = new System.Drawing.Point(223, 23);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(303, 96);
-            this.pictureBox2.TabIndex = 6;
-            this.pictureBox2.TabStop = false;
             // 
             // fmrPrincipal
             // 
@@ -272,11 +274,11 @@ namespace Parcial2
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox2)).EndInit();
             this.tabPage2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).EndInit();
             this.tabPage3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize) (this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize) (this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
         }
 

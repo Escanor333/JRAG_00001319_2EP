@@ -36,7 +36,7 @@ namespace Parcial2
                              $" VALUES('{fullname}','{user}','{user}',{admi})";
                 
                 Conexion.realizarAccion(sql);
-                MessageBox.Show("Se agregó el usuario!");
+                MessageBox.Show("Usuario Agregado!");
             }
             catch (Exception exception)
             {
@@ -57,7 +57,7 @@ namespace Parcial2
                 string sql = $"DELETE FROM APPUSER WHERE username = '{usuario}'";
                 
                 Conexion.realizarAccion(sql);
-                MessageBox.Show("Se eliminó el usuario!");
+                MessageBox.Show("Usuario Eliminado!");
                 poblar();
                 cargar();
                 limpiar();

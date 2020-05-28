@@ -55,7 +55,7 @@ namespace Parcial2
 
                 string sql = $"DELETE FROM ADDRESS WHERE ADDRESS = '{direccion}' ";
                 Conexion.realizarAccion(sql);
-                MessageBox.Show("Dirección eliminada!");
+                MessageBox.Show("Dirección eliminada exitosamente!");
                 poblar();
                 Limpiar();
                 cargarUsuarios();
@@ -92,7 +92,7 @@ namespace Parcial2
                     string sql = $"UPDATE ADDRESS SET address = '{nuevaDireccion}' " +
                                  $"WHERE address ='{direccion}' ";
                     Conexion.realizarAccion(sql);
-                    MessageBox.Show("Dirección editada!");
+                    MessageBox.Show("Dirección modificada!");
                     poblar();
                     Limpiar();
                 }

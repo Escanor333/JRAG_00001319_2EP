@@ -3,24 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="3cae5879-7d5b-4fca-8e94-ffa9d985a6cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Parcial2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Parcial2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vista/CambiarContra.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/CambiarContra.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vista/MenuUsuario.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/MenuUsuario.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vista/CambiarContra.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/CambiarContra.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vista/Negocios.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/Negocios.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vista/Negocios.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/Negocios.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vista/OrdenesPedidas.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/OrdenesPedidas.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vista/OrdenesUsuario.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/OrdenesUsuario.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vista/Productos.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/Productos.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vista/Productos.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/Productos.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vista/fmrPrincipal.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/fmrPrincipal.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vista/fmrPrincipal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/fmrPrincipal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vista/fmrPrincipal.resx" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/fmrPrincipal.resx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vista/fmrPrincipalUsuario.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/fmrPrincipalUsuario.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vista/fmrPrincipalUsuario.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vista/fmrPrincipalUsuario.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/Parcial2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Parcial2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/Parcial2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/Parcial2.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Parcial2.Properties.CambiarContra.resources" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Parcial2.Properties.CambiarContra.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Parcial2.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Parcial2.csproj.GenerateResource.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Parcial2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Parcial2.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Parcial2.fmrPrincipal.resources" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Parcial2.fmrPrincipal.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Parcial2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Parcial2.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +93,6 @@
         <option value="$PROJECT_DIR$/Vista/MenuUsuario.cs" />
         <option value="$PROJECT_DIR$/Vista/OrdenesUsuario.Designer.cs" />
         <option value="$PROJECT_DIR$/Modelo/Direcciones.cs" />
-        <option value="$PROJECT_DIR$/Vista/fmrPrincipalUsuario.cs" />
         <option value="$PROJECT_DIR$/Vista/fmrPrincipalUsuario.Designer.cs" />
         <option value="$PROJECT_DIR$/Vista/OrdenesPedidas.cs" />
         <option value="$PROJECT_DIR$/Vista/Form1.cs" />
@@ -110,6 +103,7 @@
         <option value="$PROJECT_DIR$/Vista/CambiarContra.Designer.cs" />
         <option value="$PROJECT_DIR$/Vista/CambiarContra.cs" />
         <option value="$PROJECT_DIR$/Vista/fmrPrincipal.cs" />
+        <option value="$PROJECT_DIR$/Vista/fmrPrincipalUsuario.cs" />
         <option value="$PROJECT_DIR$/Vista/Negocios.cs" />
         <option value="$PROJECT_DIR$/Vista/Productos.cs" />
       </list>
@@ -166,6 +160,7 @@
       <workItem from="1590631576842" duration="1655000" />
       <workItem from="1590633343291" duration="737000" />
       <workItem from="1590634223624" duration="2991000" />
+      <workItem from="1590637446805" duration="1711000" />
     </task>
     <servers />
   </component>
@@ -175,25 +170,25 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="WindowStateProjectService">
-    <state width="1493" height="195" key="GridCell.Tab.0.bottom" timestamp="1590637241839">
+    <state width="1493" height="195" key="GridCell.Tab.0.bottom" timestamp="1590639194314">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590637241839" />
+    <state width="1493" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590639194314" />
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590626010754" />
-    <state width="1493" height="195" key="GridCell.Tab.0.center" timestamp="1590637241839">
+    <state width="1493" height="195" key="GridCell.Tab.0.center" timestamp="1590639194314">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590637241839" />
+    <state width="1493" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590639194314" />
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590626010754" />
-    <state width="1493" height="195" key="GridCell.Tab.0.left" timestamp="1590637241839">
+    <state width="1493" height="195" key="GridCell.Tab.0.left" timestamp="1590639194314">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590637241839" />
+    <state width="1493" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590639194314" />
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590626010754" />
-    <state width="1493" height="195" key="GridCell.Tab.0.right" timestamp="1590637241839">
+    <state width="1493" height="195" key="GridCell.Tab.0.right" timestamp="1590639194314">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590637241839" />
+    <state width="1493" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590639194314" />
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590626010754" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1590626010754">
       <screen x="0" y="0" width="1920" height="1040" />

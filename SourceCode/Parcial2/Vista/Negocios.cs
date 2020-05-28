@@ -47,7 +47,7 @@ namespace Parcial2
                              $"'{descripcion}') ";
                     Conexion.realizarAccion(sql);
                     
-                    MessageBox.Show("Negocio agregado correctamente!");
+                    MessageBox.Show("Negocio agregado !");
                     poblar();
                     limpiar();
                 }
@@ -68,7 +68,7 @@ namespace Parcial2
                 string name = comboNombreEliminar.Text;
                 string sql = $"DELETE FROM BUSINESS WHERE name = '{name}' ";
                 Conexion.realizarAccion(sql);
-                MessageBox.Show("Negocio eliminado correctamente!");
+                MessageBox.Show("Negocio eliminado !");
                 limpiar();
                 poblar();
             }

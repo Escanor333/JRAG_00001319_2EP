@@ -172,9 +172,9 @@ namespace Parcial2
             this.label3.Font = new System.Drawing.Font("Lucida Bright", 13.8F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(278, 222);
+            this.label3.Location = new System.Drawing.Point(252, 222);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(215, 38);
+            this.label3.Size = new System.Drawing.Size(241, 38);
             this.label3.TabIndex = 1;
             this.label3.Text = "Nueva dirección";
             // 
@@ -184,9 +184,9 @@ namespace Parcial2
             this.label2.Font = new System.Drawing.Font("Lucida Bright", 12F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(269, 100);
+            this.label2.Location = new System.Drawing.Point(229, 100);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(259, 38);
+            this.label2.Size = new System.Drawing.Size(299, 38);
             this.label2.TabIndex = 0;
             this.label2.Text = "Seleccione la direccción";
             // 
@@ -235,7 +235,7 @@ namespace Parcial2
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(197, 122);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(229, 38);
+            this.label4.Size = new System.Drawing.Size(254, 38);
             this.label4.TabIndex = 4;
             this.label4.Text = "Seleccione la Dirección";
             // 
@@ -243,10 +243,10 @@ namespace Parcial2
             // 
             this.tabPage5.BackColor = System.Drawing.Color.Indigo;
             this.tabPage5.Controls.Add(this.dataGridView1);
-            this.tabPage5.Location = new System.Drawing.Point(4, 29);
+            this.tabPage5.Location = new System.Drawing.Point(4, 25);
             this.tabPage5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(689, 429);
+            this.tabPage5.Size = new System.Drawing.Size(689, 433);
             this.tabPage5.TabIndex = 3;
             this.tabPage5.Text = "Ver direcciones";
             // 
@@ -258,7 +258,7 @@ namespace Parcial2
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(689, 429);
+            this.dataGridView1.Size = new System.Drawing.Size(689, 433);
             this.dataGridView1.TabIndex = 0;
             // 
             // fmrPrincipalUsuario

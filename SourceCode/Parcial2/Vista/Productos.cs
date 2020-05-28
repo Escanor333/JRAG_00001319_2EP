@@ -30,7 +30,7 @@ namespace Parcial2
                                  $"'{name}')";
                     
                     Conexion.realizarAccion(sql);
-                    MessageBox.Show("Producto agregado correctamente");
+                    MessageBox.Show("Producto agregado");
                     poblar();
                     txtNombreAgregar.Text = "";
                 }
@@ -67,7 +67,7 @@ namespace Parcial2
                 string name = comboNombreProductos.Text;
                 string sql = $"DELETE FROM PRODUCT WHERE name = '{name}'";
                 Conexion.realizarAccion(sql);
-                MessageBox.Show("Eliminado correctamente!");
+                MessageBox.Show("Eliminado!");
                 poblar();
             }
             catch (Exception exception)

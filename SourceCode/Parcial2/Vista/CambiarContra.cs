@@ -22,19 +22,19 @@ namespace Parcial2.Properties
                 {
                     UsuarioDAO.actualizarContra(cmbUsuario.Text, txtNueva.Text);
                     
-                    MessageBox.Show("¡Contraseña actualizada exitosamente!", 
+                    MessageBox.Show("¡Contraseña actualizada!", 
                         "HUGO", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     
                     this.Close();
                 }
                 catch (Exception)
                 {
-                    MessageBox.Show("¡Contraseña no actualizada! Favor intente mas tarde.", 
+                    MessageBox.Show("¡Fallo en la actualizacion de contraseña", 
                         "HUGO", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             else
-                MessageBox.Show("¡¡Favor verifique que los datos sean correctos!", 
+                MessageBox.Show("¡¡Revisar si los datos son correctos!", 
                     "HUGO", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
         }
         
